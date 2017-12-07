@@ -17,3 +17,17 @@ Authors: Dave Fisher and PUT_YOUR_NAME_HERE.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
+
+import ev3dev.ev3 as ev3
+
+
+def main():
+    """ Creates the LargeMotor objects and passes them to other functions. """
+    print("--------------------------------------------")
+    print("  Drive demo")
+    print("--------------------------------------------")
+    ev3.Sound.speak("Jackie can use EV3").wait()
+
+
+main()
+
